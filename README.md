@@ -2,7 +2,7 @@
 
 This repository contains the PyTorch implementation of **FreqCoT**, a frequency-enhanced semantic community transformer for traffic forecasting.
 
-FreqCoT organizes traffic nodes into **semantic communities** using frequency-domain descriptors (FFT), and models global interactions through **hierarchical community tokens** (HD-CoTAR). By restricting global attention to a small set of community tokens, it captures long-range dependencies beyond spatial proximity while keeping inference latency competitive with lightweight GNN baselines.
+FreqCoT organizes traffic nodes into **semantic communities** using frequency-domain descriptors, and models global interactions through **hierarchical community tokens** (HD-CoTAR). By restricting global attention to a small set of community tokens, it captures long-range dependencies beyond spatial proximity while keeping inference latency competitive with lightweight GNN baselines.
 
 ## Requirements
 
@@ -13,8 +13,6 @@ FreqCoT organizes traffic nodes into **semantic communities** using frequency-do
 ```bash
 pip install -r requirements.txt
 ```
-
-> Note: `requirements.txt` currently omits `tqdm`; install it manually (`pip install tqdm`) if needed.
 
 ## Datasets
 
